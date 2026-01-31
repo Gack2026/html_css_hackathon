@@ -1,1 +1,25 @@
-/* CSSはこのファイルに記述してください */
+header .conttainer {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 15px;
+  display: flex;
+}
+.header-title{
+    float: left;
+}
+a.header-logo{
+    color: #777;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Dosis", sans-serif;
+}
+
+
+
+.top-section{
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/top.jpg);
+    background-size: cover;
+}
